@@ -1,0 +1,45 @@
+.bonuses {
+	background-color: #F6F6F6;
+	&__title {
+	padding-top: 70px;
+	display: block;
+	text-align: center;
+	font-weight: 700;
+	font-size: 30px;
+	color: #0D0D0D;
+	text-transform: uppercase;
+	}
+	&__items {
+		margin-top:60px;
+		display: flex;
+		justify-content: space-between;
+	}
+	&__item{
+		width: 277px;
+		img {
+			display: block;
+			margin: 0 auto;
+		}
+	}
+	&__text{
+		font-weight: 700;
+		font-size: 18px;
+		text-align: center;
+		color: #0D0D0D;
+		margin-top: 35px;
+
+	}
+	&__descr {
+		margin:20px 0 65px 0;
+		font-weight: 300;
+		font-size: 14px;
+		line-height: 18px;
+		text-align: center;
+		color: #0D0D0D;
+		span {
+			color: #FF0000;
+		}
+	}
+
+
+}
