@@ -8,6 +8,22 @@
 			align-items: center;
 		}
 	}
+
+	.feed-form {
+		margin: 0 auto;
+	}
+
+	.consultation {
+		&__descr {
+			text-align: center;
+		}
+
+		.title {
+			&_left {
+				text-align: center;
+			}
+		}
+	}
 }
 
 @media (max-width:576px) {
