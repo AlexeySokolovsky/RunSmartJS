@@ -10,8 +10,23 @@
 
 
 @media (max-width:768px) {
+	.reviews {
+		.review {
+			flex-direction: column;
+			max-width: 500px;
+			margin: 0 auto;
+			align-items: center;
+
+			&__text {
+				text-align: center;
+				max-width: 500px;
+			}
+		}
+	}
+
 	.carousel {
 		padding: 81px 0;
+
 		.slick-slider {
 			width: 500px;
 		}
@@ -37,37 +52,38 @@
 		}
 	}
 
-		.promo {
-			.header {
-				justify-content: space-around;
-			}
-
-			.promo__wrapper {
-				align-items: center;
-			}
+	.promo {
+		.header {
+			justify-content: space-around;
 		}
 
-		.feed-form {
-			margin: 0 auto;
+		.promo__wrapper {
+			align-items: center;
+		}
+	}
+
+	.feed-form {
+		margin: 0 auto;
+	}
+
+	.consultation {
+		&__descr {
+			text-align: center;
 		}
 
-		.consultation {
-			&__descr {
+		.title {
+			&_left {
 				text-align: center;
-			}
-
-			.title {
-				&_left {
-					text-align: center;
-				}
 			}
 		}
 	}
+}
 
 
 @media (max-width:576px) {
 	.carousel {
 		padding: 81px 0;
+
 		.slick-slider {
 			width: 350px;
 		}
@@ -83,10 +99,12 @@
 
 		}
 	}
+
 	.catalog {
 		.title {
 			font-size: 30px;
 		}
+
 		.catalog__tabs {
 			.catalog__tab {
 				font-size: 10px;
@@ -94,6 +112,7 @@
 			}
 		}
 	}
+
 	.promo {
 		.header {
 			flex-wrap: wrap;
