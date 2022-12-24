@@ -20,6 +20,12 @@
 			display: block;
 			margin: 0 auto;
 		}
+		&__animated{
+			animation: heartbeat 1.5s ease infinite;
+			&:hover {
+				animation-play-state: paused;
+			}
+		}
 	}
 	&__text{
 		font-weight: 700;
@@ -39,7 +45,8 @@
 		span {
 			color: #FF0000;
 		}
+
+		}
 	}
 
 
-}

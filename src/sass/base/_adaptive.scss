@@ -181,4 +181,27 @@
 			font-size: 18px;
 		}
 	}
+	.overlay {
+		.modal{
+			max-width: 300px;
+			min-height: 460px;
+		&__close{
+			right: 20px;
+			top:10px;
+			
+		}
+		}
+		.feed-form{
+			max-width: 200px;
+		}
+	}
+	.footer {
+		&__info{
+			max-width:375px;
+		}
+		&__social{
+			max-width: 212px;
+		}
+	}
+
 }

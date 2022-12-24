@@ -1,5 +1,6 @@
 @import "base/variables";
 @import "base/adaptive";
+@import "base/animations";
 
 * {
 	font-family: 'Muse Sans Cyrl', sans-serif;
@@ -19,3 +20,6 @@
 @import "blocks/carousel.scss";
 @import "blocks/catalog";
 @import "blocks/reviews";
+@import "blocks/footer";
+@import "blocks/modal";
+@import "blocks/pageup";
